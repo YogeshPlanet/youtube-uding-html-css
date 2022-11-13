@@ -1,0 +1,80 @@
+.erass {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.ciolo1 {
+    background-color: lightblue;
+    width: 200px;
+}
+
+.ciolo2 {
+    background-color: lightpink;
+    width: 75px;
+}
+
+.wrass {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.miolo1 {
+    background-color: lightblue;
+    width: 50px;
+}
+
+.miolo2 {
+    background-color: lightpink;
+    flex: 1;
+}
+
+.miolo3 {
+    background-color: lightblue;
+    width: 75px;
+}
+
+.crass {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.vrass1 {
+    background-color: lightpink;
+}
+
+.vrass2 {
+    background-color: lightpink;
+}
+
+.vrass3 {
+    background-color: lightpink;
+}
+
+.vrass4 {
+    background-color: lightpink;
+}
+
+.grass1 {
+    background-color: lightpink;
+}
+
+.grass2 {
+    background-color: lightpink;
+}
+
+.prass {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    height: 100px;
+    align-items: center;
+}

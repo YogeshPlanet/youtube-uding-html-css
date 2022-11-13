@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: Roboto, Arial;
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    padding-right: 24px;
+    height: 1200px;
+    overflow-y: scroll;
+}
+
+.hummingface {
+    width: 100%;
+}
+
+.channelface {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.horp1 {
+    width: 100%;
+    cursor: pointer;
+}
+
+.creator-name {
+    vertical-align: top;
+}
+
+.video-headsr {
+    font-weight: 700;
+    font-size: 16px;
+    /* width: 200px; */
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 1000px) {
+    .video-headsr {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.name {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+@media (min-width: 1000px) {
+    .name {
+        font-size: 14px;
+    }
+}
+
+.stauts {
+    color: grey;
+    font-size: 14px;
+}
+
+@media (min-width:1000px) {
+    .stauts {
+        font-size: 14px;
+    }
+}
+
+
+.vert2 {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    margin-top: 8px;
+}
+
+.vigiwelyee {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 16px;
+}
+
+@media (max-width: 750px) {
+    .vigiwelyee {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 751px) and (min-width: 999px) {
+    .vigiwelyee {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .vigiwelyee {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 471px) {
+    .vigiwelyee {
+        grid-template-columns: 1fr;
+    }
+}
+
+.vert1 {
+    position: relative;
+    object-fit: cover;
+}
+
+.vitimezc {
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.video-head {
+    cursor: pointer;
+}
+
+.chwo {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: -30px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    pointer-events: none;
+    box-shadow: 0px 0px 4px 1px grey;
+    border-radius: 4px;
+    transition: opacity 0.15s;
+}
+
+
+.channelface1 {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 50px;
+}
+
+.horp1 {
+    position: relative;
+}
+
+.horp1 .chwo {
+    opacity: 0;
+}
+
+.horp1:hover .chwo {
+    opacity: 1;
+}
+
+.tipename {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.tipname1 {
+    color: grey;
+    white-space: nowrap;
+}
+

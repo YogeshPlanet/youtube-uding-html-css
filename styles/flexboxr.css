@@ -1,0 +1,22 @@
+.webfleeysr {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: grey;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.trass1 {
+    width: 100px;
+}
+
+.trass2 {
+    width: 100px;
+}
+
+.trass3 {
+    width: 100px;
+}

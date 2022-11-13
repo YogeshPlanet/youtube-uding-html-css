@@ -1,0 +1,63 @@
+p {
+    font-family: Arial;
+}
+
+.inname {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+.propfactorfacer {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.catbarboxr {
+    box-shadow: 0 0 4px 1px grey;
+}
+
+
+.allprofilessr {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.bigprofpsr {
+    width: 200px;
+    height: 190px;
+}
+
+.propname {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.friend-text {
+    color: grey;
+    font-size: 14px;
+}
+
+.addfriend {
+    background-color: rgb(5, 123, 233);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.profilefuce2 {
+    margin-left: 8px;
+}
+
+.addfdsr {
+    margin-bottom: 8px;
+}
+
